@@ -28,6 +28,12 @@ A korábbi órán megoldott kvíz alkalmazásunkat integráljuk a táblázatkeze
 ## 08b_igaz_hamis (mintadoga)
 A korábbi órán megoldott igaz_hamis alkalmazásunkat integráljuk a táblázatkezelő alkalmazásunkba. A 08a_kvíz alapján állítsuk elő az architecturális ábrát, valamint a felületet, valamint implementáljuk az alkalmazást.
 
+## +kviz
+Korábban megosztott kvíz alkalmazáshoz tartozó fájlok
+
+## +igazhamis
+Korábban megosztott igaz/hamis alkalmazáshoz tartozó fájlok
+
 ## Plussz feladatok és kérdések
 1. Mi a különbség a gombos navigáció és a rádigombos navigáció között a DOM-tree szempontjából?
 2. Hogyan oldanánk meg a gombos navigációt, hogy hasonló legyen a renderelési logika a rádiogomboshoz?
