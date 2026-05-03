@@ -1,0 +1,125 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLGeneric</id><coordinates><x>0</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>18</y><w>27</w><h>4428</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;4900</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>153</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>index.js</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>18</y><w>27</w><h>4410</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;4880</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>270</x><y>0</y><w>126</w><h>27</h></coordinates><panel_attributes>ViewElement</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>18</y><w>36</w><h>4419</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;20;4890</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>432</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>Form</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>18</y><w>54</w><h>4482</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;40;4960</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>549</x><y>0</y><w>117</w><h>27</h></coordinates><panel_attributes>Table</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>18</y><w>72</w><h>4419</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;60;4890</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>684</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>Manager</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>18</y><w>72</w><h>4455</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;60;4930</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>819</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>NavigationBar</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>18</y><w>63</w><h>4437</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;50;4910</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>45</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1. global</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>63</y><w>693</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.1 NavigationBar példányosítása</panel_attributes><additional_attributes>750;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>108</y><w>558</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.1.1 Szülő konstruktor hívása</panel_attributes><additional_attributes>10;20;600;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>135</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.1.2 div elem létrehozása</panel_attributes><additional_attributes>30;70;10;70;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>198</y><w>558</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>216</y><w>162</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.1.3 lista inicializálás
+/eseményfeliratkozás</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>378</y><w>693</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;750;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>423</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.2 Elem hozzáfűzése
+bodyhoz</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>459</y><w>162</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>630</y><w>423</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4 Table példányosítása</panel_attributes><additional_attributes>450;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>657</y><w>297</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4.1 Szülő konstruktor hívása</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>684</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4.2 div elem létrehozása</panel_attributes><additional_attributes>30;70;10;70;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>747</y><w>297</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>999</y><w>702</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.6 Table hozzáadása a navbárhoz</panel_attributes><additional_attributes>760;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>864</x><y>1035</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.6.1 listához adás/
+rádiogomb létreh</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1098</y><w>702</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;760;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1143</y><w>306</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7 Form példányosítása</panel_attributes><additional_attributes>320;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1170</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.1 Szülő konstruktor hívása</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>1188</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.2 div elem létrehozása</panel_attributes><additional_attributes>30;70;10;70;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>1251</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>1278</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.3 lista 
+inicialízálása/
+manager értékadás</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>1350</y><w>549</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.4 FormInputok példányosítása</panel_attributes><additional_attributes>590;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>1440</y><w>549</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;590;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1656</y><w>702</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.9 Form  hozzáadása a navbárhoz</panel_attributes><additional_attributes>760;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>1701</y><w>261</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.9.1 listához adás/
+gomb létreh / eseménykezelő definiálása</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1764</y><w>711</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;770;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1818</y><w>711</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10 Table megjelenítése</panel_attributes><additional_attributes>770;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>1872</y><w>162</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.1 gomb 
+lekérdezése id alapján
+css állítása</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>2070</y><w>576</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.2 aktíválás</panel_attributes><additional_attributes>10;20;620;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>2097</y><w>153</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.3 id egyezés esetén </panel_attributes><additional_attributes>30;70;10;70;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>2295</y><w>162</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>513</y><w>558</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.3 Manager példányosítása</panel_attributes><additional_attributes>600;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>594</y><w>558</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;600;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1080</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>Color</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1116</x><y>18</y><w>72</w><h>4419</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;60;4890</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>837</y><w>126</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4.1 Táblázat 
+létrehozása</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>900</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4.3 rendercallback 
+implementálása</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>918</y><w>162</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>990</x><y>18</y><w>81</w><h>4410</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;70;4880</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>954</x><y>0</y><w>90</w><h>27</h></coordinates><panel_attributes>FormInput</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>936</y><w>297</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.4.4 Activate callback implementálása</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>954</y><w>297</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>972</y><w>432</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;460;20</additional_attributes></element><element><id>Relation</id><coordinates><x>999</x><y>1377</y><w>117</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.4.1 input, 
+label és 
+errordiv
+létrehozása</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>1485</y><w>126</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.7.5 
+gomb létreh/
+submit
+esemény impl</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>1548</y><w>315</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;330;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>2169</y><w>306</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.4 Táblázat activatecallback meghívása</panel_attributes><additional_attributes>320;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>2187</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.4.1 (activateCallback)
+ elemek lekérése</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>2232</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.4.2 (rendercallback)
+elemek megjelenítése</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>2259</y><w>162</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>2313</y><w>306</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;320;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>2340</y><w>576</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>620;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>2358</y><w>711</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;770;20</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>2385</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+Alkalmazás inicializálás vége</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>2421</y><w>864</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+2. navigáción klikk</panel_attributes><additional_attributes>940;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>2439</y><w>144</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+2.1 Eseménykezelő</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>2520</y><w>180</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+2.2 css class állítása/ 
+id alapján divhez csatolás</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>2601</y><w>567</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+2.3  navigálás</panel_attributes><additional_attributes>10;20;610;20</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>2718</y><w>864</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+Kattintás eseménykezelés vége</panel_attributes><additional_attributes>10;20;940;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>2628</y><w>126</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+2.5 Ha van beállítva 
+activateCallback
+akkor végrehajt</panel_attributes><additional_attributes>30;70;10;70;10;10;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>2691</y><w>576</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>620;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>2763</y><w>603</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3. Kattintás a szerkesztésen</panel_attributes><additional_attributes>650;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>612</x><y>2862</y><w>297</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.2 navigálás azonosító alapján, 
+átadva egy objektumot</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>612</x><y>2790</y><w>144</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.1 Eseménykezelő</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>3042</y><w>567</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.5  aktiválás</panel_attributes><additional_attributes>10;20;610;20</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>3123</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.6 Form
+activatecallback meghívása</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>3141</y><w>288</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.7 Elem lekérése a 
+paraméterben kapott
+azonosító alapján</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>3177</y><w>288</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;300;10</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>3258</y><w>567</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.9 FormInputok value 
+értékének állítása</panel_attributes><additional_attributes>610;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>3294</y><w>567</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;610;10</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>3195</y><w>171</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.8 osztályszintű 
+változó állítása,
+hogy tudjuk szerkesztő 
+módban vagyunk-e</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>3528</y><w>477</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4. Elem szerkesztésekor submit</panel_attributes><additional_attributes>510;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>3321</y><w>180</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>333</x><y>3411</y><w>576</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>620;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>3456</y><w>279</w><h>27</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;290;10</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>3474</y><w>612</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+Paraméteres navigáció vége</panel_attributes><additional_attributes>10;20;660;20</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>3546</y><w>144</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4.1 Eseménykezelő</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>3609</y><w>171</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4.2 (eseménykezelő)
+végigiterál 
+az inputokon,
+előállítja az objektumot</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>3681</y><w>288</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4.3 Elem frissítése azonosító alapján</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>3717</y><w>162</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4.3.1 azonosító 
+alapján megkeressük
+az objektumot 
+a tömbben</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>3834</y><w>288</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>36</x><y>3852</y><w>477</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+Űrlap küldésének vége</panel_attributes><additional_attributes>10;20;510;20</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>3798</y><w>423</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-
+4.3.1.1 tulajdonság értékének frissítése</panel_attributes><additional_attributes>450;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>756</x><y>3816</y><w>423</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element><element><id>Relation</id><coordinates><x>855</x><y>288</y><w>162</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.1.4 lista inicializálás
+divek létrehozása</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>873</x><y>1953</y><w>180</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.10.2 divhez hozzáfűzés</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>729</x><y>531</y><w>423</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;-
+1.3.1 Color-ok példányosítása
+/ tulajdonságok beállítása</panel_attributes><additional_attributes>450;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>567</y><w>414</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;440;20</additional_attributes></element><element><id>Relation</id><coordinates><x>882</x><y>2898</y><w>162</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.3 gomb 
+lekérdezése id alapján
+css állítása/ 
+megjelenítendő 
+viewelement 
+megkeresés</panel_attributes><additional_attributes>10;80;40;80;40;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>882</x><y>2979</y><w>162</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-
+3.4 divhez hozzáfűzés</panel_attributes><additional_attributes>10;70;40;70;40;10;10;10</additional_attributes></element></diagram>
